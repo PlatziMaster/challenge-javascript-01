@@ -24,3 +24,17 @@ Si alguien quiere agregar o mejorar algo, lo invito a colaborar directamente en 
 
 ### Licencia
 challenge-javascript-01 se lanza bajo la licencia [MIT](https://opensource.org/licenses/MIT).
+
+
+### SOLVED
+   
+  the formula to calculate a triangle are is:
+    base * height /2
+
+  BUT !
+
+  If the triangle is equilateral, the forumla change to:
+    root of 3 / 4 * base^
+
+### TRY MY FUNCTION
+  $ npm run triangle:area

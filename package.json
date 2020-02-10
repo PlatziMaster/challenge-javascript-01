@@ -4,7 +4,8 @@
   "description": "Area of a Triangle",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "triangle:area": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -28,5 +29,8 @@
     "transformIgnorePatterns": [
       "<rootDir>/(node_modules)/"
     ]
+  },
+  "dependencies": {
+    "prompt": "^1.0.0"
   }
 }
