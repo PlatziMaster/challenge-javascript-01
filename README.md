@@ -26,13 +26,15 @@ Si alguien quiere agregar o mejorar algo, lo invito a colaborar directamente en 
 challenge-javascript-01 se lanza bajo la licencia [MIT](https://opensource.org/licenses/MIT).
 
 
-### RESPUESTA
-  Ela área de un triángulo sabiando su base y altura se calcula 
-  con la siguiente formula:
-    base * altura / 2 
+### SOLVED
+   
+  the formula to calculate a triangle are is:
+    base * height /2
 
-  PERO! 
-  Si el triángulo es equilatero la formula para calcular el área 
-  cambia a esta:
-    raiz de 3 / 4 * base^
-    
+  BUT !
+
+  If the triangle is equilateral, the forumla change to:
+    root of 3 / 4 * base^
+
+### TRY MY FUNCTION
+  $ npm run triangle:area
