@@ -1,5 +1,3 @@
-const triangleArea = (base, height) => {
+const triangleArea = require('./utils/triangleArea')
 
-};
-
-module.exports = triangleArea;
+console.log(triangleArea(7,3))

@@ -1,4 +1,4 @@
-const triangleArea = require('../index');
+const triangleArea = require('../utils/triangleArea');
 
 describe('Test Triangle Area Function', () => {
   test('Calculate Area', () => {
