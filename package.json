@@ -4,7 +4,8 @@
   "description": "Area of a Triangle",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
