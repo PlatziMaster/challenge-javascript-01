@@ -1,5 +1,1 @@
-const triangleArea = (base, height) => {
-
-};
-
-module.exports = triangleArea;
+module.exports = (base, height) => base * height / 2
