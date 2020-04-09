@@ -22,11 +22,5 @@
   "devDependencies": {
     "husky": "^4.2.1",
     "jest": "^24.9.0"
-  },
-  "jest": {
-    "verbose": true,
-    "transformIgnorePatterns": [
-      "<rootDir>/(node_modules)/"
-    ]
   }
 }
