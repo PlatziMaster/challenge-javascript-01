@@ -28,5 +28,8 @@
     "transformIgnorePatterns": [
       "<rootDir>/(node_modules)/"
     ]
+  },
+  "dependencies": {
+    "is-number": "^7.0.0"
   }
 }
