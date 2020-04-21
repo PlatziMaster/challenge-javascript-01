@@ -12,8 +12,16 @@
 
 
 
-let base = 7
-let heigth = 4
+let base
+let heigth 
+
+
+base=prompt('Ingrese su base:','');
+heigth=prompt('Ingrese altura:','');
+
+console.log(`ingrese la base ${base}`);
+console.log(` ingrese altura ${heigth} ` );
+
 
 function triangleArea(base, heigth) {
   return base * heigth / 2 
