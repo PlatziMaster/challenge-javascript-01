@@ -10,18 +10,30 @@ describe('Test Triangle Area Function', () => {
   });
 
   test('Calculate Area negative', () => {
-    expect(triangleArea(-2,-6)).toEqual(false);
+    function testArea() {
+      triangleArea(-2, -6);
+    }
+    expect(testArea).toThrow(Error);
   });
 
   test('Calculate Area string', () => {
-    expect(triangleArea('qweqwe', 'qweqwe')).toEqual(false);
+    function testArea() {
+      triangleArea('qweqwe', 'qweqwe');
+    }
+    expect(testArea).toThrow(Error);
   });
 
   test('Calculate Area Null', () => {
-    expect(triangleArea(null, '1')).toEqual(false);
+    function testArea() {
+      triangleArea(null, '1');
+    }
+    expect(testArea).toThrow(Error);
   });
 
   test('Calculate Area empty', () => {
-    expect(triangleArea(1, '')).toEqual(false);
+    function testArea() {
+      triangleArea(1, '');
+    }
+    expect(testArea).toThrow(Error);
   });
 });
