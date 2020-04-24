@@ -35,5 +35,6 @@ describe('Test Triangle Area Function', () => {
       triangleArea(1, '');
     }
     expect(testArea).toThrow(Error);
+    
   });
 });
