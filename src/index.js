@@ -1,7 +1,7 @@
 const triangleArea = (base, height) => {
-  let triangleArea = (base * height) / 2;
+  const area = (base * height) / 2;
 
-  return triangleArea;
+  return area;
 };
 
 module.exports = triangleArea;
