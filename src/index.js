@@ -4,6 +4,4 @@ const triangleArea = (base, height) => {
   return area;
 };
 
-triangleArea(4, 8);
-
 module.exports = triangleArea;
