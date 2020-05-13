@@ -1,5 +1,4 @@
-function triangleArea(base, height) {
-    return base * height / 2
-};
+const triangleArea = (base,height) =>(base * height )/ 2
 
-export default triangleArea;
+
+module.exports = triangleArea;
