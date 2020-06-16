@@ -4,7 +4,8 @@
   "description": "Area of a Triangle",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "areaT": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -13,7 +14,7 @@
   "keywords": [
     "JavaScript"
   ],
-  "author": "Oscar Barajas <oscar@platzi.com>",
+  "author": "Isaac Fuentes <alienxtrix@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/PlatziMaster/challenge-js-01/issues"
