@@ -17,7 +17,7 @@ npm run test
 Completa la función para calcular el área de un triángulo.
 
 ### Enviar solución de reto
-Debes hacer un "Fork" de este proyecto, revolver los problemas y crear un Pull Request hacia este repositorio.
+Debes hacer un "Fork" de este proyecto, resolver los problemas y crear un Pull Request hacia este repositorio.
 
 ### Contribuir
 Si alguien quiere agregar o mejorar algo, lo invito a colaborar directamente en este repositorio: [challenge-javascript-01](https://github.com/platzimaster/challenge-javascript-01/)
