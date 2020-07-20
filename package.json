@@ -2,8 +2,9 @@
   "name": "challenge-js-01",
   "version": "1.0.0",
   "description": "Area of a Triangle",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
+    "start": "node src/index.js",
     "test": "jest"
   },
   "repository": {
@@ -28,5 +29,8 @@
     "transformIgnorePatterns": [
       "<rootDir>/(node_modules)/"
     ]
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
   }
 }
