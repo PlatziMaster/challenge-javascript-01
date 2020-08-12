@@ -1,5 +1,5 @@
-function areaTriangulo (base, altura) {
-    return base * altura / 2
+function triangleArea (base, height ) {
+    return base * height  / 2
 }
 
-areaTriangulo(30, 56)
+triangleArea(30, 56)
