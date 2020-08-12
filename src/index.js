@@ -1,5 +1,5 @@
-const triangleArea = (base, height) => {
+function areaTriangulo (base, altura) {
+    return base * altura / 2
+}
 
-};
-
-module.exports = triangleArea;
+areaTriangulo(30, 56)
