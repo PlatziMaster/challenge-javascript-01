@@ -1,4 +1,10 @@
-const triangleArea = (base: number, height: number): number => {
+/**
+ * Triangles area
+ * @param base size
+ * @param height size
+ * @returns area 
+ */
+function triangleArea(base: number, height: number): number {
 
     if (base < 0) throw new Error("Negative base incorrect");
 
