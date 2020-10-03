@@ -1,3 +1,5 @@
+'use strict'
+
 const triangleArea = require('../index');
 
 describe('Test Triangle Area Function', () => {
