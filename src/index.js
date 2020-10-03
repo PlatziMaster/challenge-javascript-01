@@ -1,9 +1,10 @@
 'use strict'
 
 function area(a) {
-  const divided = 2
+  const dividedNumber = 2
   return function base(b) {
-    return (a * b) / divided
+    const mult = Math.imul(a, b)
+    return mult / dividedNumber
   }
 }
 
