@@ -1,5 +1,5 @@
 const triangleArea = (base, height) => {
-  triangleArea = (base * height)/2
+  return (base * height)/2
 
 };
 
